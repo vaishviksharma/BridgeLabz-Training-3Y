@@ -5,7 +5,7 @@ class Book {
     private String author;    // Private 
 
     // Constructor
-    Book(String i, String t, String a) {
+    public Book(String i, String t, String a) {
         ISBN = i;
         title = t;
         author = a;
